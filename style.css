@@ -10,37 +10,61 @@ body{
 }
 
 #container{
-    background: #ede9cc;
+    margin: 0 auto;
+    width: 1200px;
+    border: 0px solid red;
+    background-color: #dbcd87;
 }
 
 .cabecalho{
     display: flex;
     flex-direction: row;
     border: 0px solid red;
-    background: #dbcd87;
     height: 15.4em;
     min-height: 250px;   
 }
 
-.logo{
+.logomarca{
     border: 0px solid red;
-    width: 100%;
+    width: 60%;
     height: 250px;
-    background: url(imagens-2/teste-2.png) no-repeat;
+    background: url(imagens-2/topo-imagem-principal2.png) no-repeat;
 }
 
 .navegacao{
     border: 0px solid red;
     background: url(imagens-2/topo-imagem-lateral.png) no-repeat;
     height: 250px;
-    width: 450px;
+    width: 480px;
 }
 
-.logo-chale img{
-    margin-left: 45px;
+.logo img{
+    margin-left: 10px;
     height: 80px;
     width: 170px;
 }
 
+.menu-navegacao{
+    padding: 8px;
+    margin-left: 80px;
+    width: 350px;
+    margin-top: 20px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
 
+.menu-navegacao h5{
+    font-size: 11px;
+}
+.menu-navegacao a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid red;
+    text-decoration: none;
+}
 
