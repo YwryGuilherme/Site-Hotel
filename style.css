@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-decoration: none;
 }
 
 body{
@@ -11,12 +12,13 @@ body{
 
 #container{
     margin: 0 auto;
-    width: 1200px;
+    width: 85%;
     border: 0px solid red;
-    background-color: #dbcd87;
+    
 }
 
 .cabecalho{
+    background: #e5dcae;
     display: flex;
     flex-direction: row;
     border: 0px solid red;
@@ -25,17 +27,18 @@ body{
 }
 
 .logomarca{
+    min-width: 350px;
     border: 0px solid red;
-    width: 60%;
+    width: 70%;
     height: 250px;
     background: url(imagens-2/topo-imagem-principal2.png) no-repeat;
 }
 
-.navegacao{
+.cabecalho-secundario{
     border: 0px solid red;
     background: url(imagens-2/topo-imagem-lateral.png) no-repeat;
     height: 250px;
-    width: 480px;
+    width: 515px;
 }
 
 .logo img{
@@ -44,8 +47,17 @@ body{
     width: 170px;
 }
 
-.menu-navegacao{
-    padding: 8px;
+.imagem-depoimento{
+    width: 200px;
+    margin-right: 50px;
+    margin-top: 15px;
+    float: right;
+}
+
+.cabecalho-secundario-reservar{
+    align-items: center;
+    margin-right: 10px;
+    padding: 10px;
     margin-left: 80px;
     width: 350px;
     margin-top: 20px;
@@ -53,18 +65,122 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
+    border-top: 1px solid #a29750;
+    border-bottom: 1px solid #a29750;
 }
 
-.menu-navegacao h5{
-    font-size: 11px;
+.cabecalho-secundario-reservar h5{
+    color: #a29750;
+    font-size: 12px;
 }
-.menu-navegacao a{
+.cabecalho-secundario-reservar a{
+    color: #e5dcae;
+    background-color: #a29750;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 1px solid red;
+    border: 0px solid red;
     text-decoration: none;
 }
 
+
+.menu-navegacao{
+    float: inline-start;
+    width: 100px;
+    gap: 15px;
+    margin-top: 15px;
+    margin-left: 90px;
+    list-style: none;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-navegacao a{
+    font-size: 12px;
+    color: #746c39;;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.menu-navegacao a:hover{
+    background-color: #fef5be
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    border: 0px solid red;
+}
+
+.conteudoprimario{
+    background: #efeacc;
+    border: 0px solid red;
+    width: 50%;
+}
+
+.texto-01-conteudo-primario{
+    margin: 0 auto;
+    width: 550px;
+    border: 0px solid red;
+    margin-top: 10px;
+}
+
+.titulo-conteudo-primario{
+    margin-top: 5px;
+    margin-left: 23px;
+    color: #746c39;
+}
+
+.conteudo-secundario{
+    width: 50%;
+    height: 400px;
+    border: 0px solid red;
+    background-color: #ded9b7;
+}
+
+.menu-navegacao-secundario{
+    margin: 15px auto;
+    width: 520px;
+    list-style: none;
+    border: 0px solid red;
+}
+
+.menu-navegacao-secundario img{
+    margin-right: 5px;
+    width: 160px;
+    float: left;
+}
+
+.menu-navegacao-secundario h3{
+    background: url(imagens-2/ornamento.png) no-repeat right;
+    color: #746c39;
+    border: 0px solid red;
+}
+
+.menu-navegacao-secundario p{
+    border: 0px solid red;
+    color: black;
+}
+
+.caixa-01{
+    display: block;
+    height: 100px;
+    padding: 10px;
+    width: 500px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.menu-navegacao-secundario li:hover{
+    background-color: rgba(238, 238, 202, 0.827);
+}
+
+.rodape{
+    color:#a29750;
+    background-color: white;
+    margin-top: 5px;
+    padding: 30px;
+    border: 0px solid red;
+}
